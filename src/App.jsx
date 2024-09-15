@@ -4,6 +4,7 @@ import Body from "./component/Body";
 import Header from "./component/Header";
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
 import * as style from "/index.css"
+import Weather from "./component/Weather";
 
 
 
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
             {
                 path:"/",
                 element:<Body/>
+            },
+            {
+                path:"/weather",
+                element:<Weather/>
             }
         ]
     }

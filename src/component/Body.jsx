@@ -1,9 +1,9 @@
 
-
 const Body = () => {
+
     return (
         <div>
-            <h1 className="text-red-900">Body Load</h1>
+            <h1>check body</h1>
         </div>
     )
 }
